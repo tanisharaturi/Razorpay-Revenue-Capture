@@ -1,0 +1,17 @@
+{
+  "run_date": "2026-10-13",
+  "route": "Codex collaboration spawn_agent",
+  "agent_task": "/root/blind_case_evaluator",
+  "fork_turns": "none",
+  "user_authorization": "Yes, run the fresh evaluator",
+  "attempts": 1,
+  "input": "model-prompt.txt",
+  "saved_first_final_response": "model-response.json",
+  "labels_and_baseline_results_provided_to_evaluator": false,
+  "model_configuration": "Inherited session model; no override",
+  "exact_model_identifier": null,
+  "sampling_configuration": null,
+  "configuration_limit": "Exact model version and sampling settings were not exposed by the collaboration tool.",
+  "prototype_integration": false,
+  "human_label_validation": false
+}

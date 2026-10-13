@@ -1,0 +1,50 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "predictions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "decision": {
+            "enum": [
+              "propose",
+              "hold",
+              "exclude"
+            ]
+          },
+          "amount_inr": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "completion_id": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "reason": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "decision",
+          "amount_inr",
+          "completion_id",
+          "reason"
+        ]
+      }
+    }
+  },
+  "required": [
+    "predictions"
+  ]
+}

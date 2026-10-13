@@ -1,0 +1,15 @@
+{
+  "created_utc": "2026-10-13T06:36:51.381272+00:00",
+  "case_count": 20,
+  "author": "Codex assistant at user request; AI-authored synthetic cases, not merchant records",
+  "label_author": "Same author; not independently labelled",
+  "scope": "Decision plus completion record plus amount; partly structured fixtures, not live ingestion",
+  "provenance": "New fixture set; C02 intentionally mirrors the existing Nila demonstration. Not a held-out population benchmark.",
+  "files": {
+    "response-schema.json": "d793c0ec0c44b9451746aeeb543f214e05e1eb65682bcc8dc629e550fcd7a1f8",
+    "labels.json": "d36b7c2d8b32697595d2a9303b3481c39953b2fb0b905073844b020b9483c2fd",
+    "run_rules.py": "f98c5cd480908db437186c6c8bae54c6a07efc9d68a91ca9678527cde0843b31",
+    "cases.json": "11430a0a5293c4006aa94bfeb3a80e3588861d1341637e2dd4d9e32e6e1f57ce",
+    "model-prompt.txt": "28f179dba71d45ada1387718dc656360117baa29391b14b05830d10dd1340728"
+  }
+}

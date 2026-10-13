@@ -1,0 +1,21 @@
+case,expected_decision,expected_amount_inr,expected_completion,job_keyword_exact,guarded_synonym_exact,model_exact,model_decision,model_amount_inr,model_completion,model_reason
+C01,propose,1500,R1A,True,True,True,propose,1500,R1A,"The separately approved unloading was completed and acknowledged for the matching job, with no prior charge."
+C02,propose,2400,R2A,False,True,True,propose,2400,R2A,"The matching customer, batch and full 120-carton completion uniquely support the approved festive sleeve work, which was acknowledged and unbilled."
+C03,propose,900,R3A,False,True,True,propose,900,R3A,Stretch film securing confirms all six approved pallet wraps were completed and acknowledged for the matching job without prior billing.
+C04,propose,550,R4A,False,True,True,propose,550,R4A,Replacement barcode application confirms the approved 50-carton relabelling was completed and acknowledged without prior billing.
+C05,propose,1200,R5A,True,True,True,propose,1200,R5A,"Two workers completed three acknowledged hours each, leaving two chargeable hours each after included time at INR 300 per worker-hour."
+C06,propose,1200,R6A,False,False,True,propose,1200,R6A,"The matching customer and batch uniquely support two acknowledged social video edits at the approved INR 600 each, with no prior billing."
+C07,propose,1800,R7A,True,True,True,propose,1800,R7A,The separately approved reconciliation was completed and acknowledged for the matching job without prior billing.
+C08,propose,800,R8A,False,False,True,propose,800,R8A,The matching customer and batch uniquely support completed and acknowledged subtitle synchronisation at the approved unbilled fixed fee.
+C09,propose,1000,R9A,False,False,True,propose,1000,R9A,The matching customer and batch uniquely support the completed and acknowledged carpet extraction wash as the approved unbilled carpet cleaning.
+C10,propose,2000,R10A,True,True,True,propose,2000,R10A,"The customer reduced scope to 100 cartons at INR 20 each, and all 100 were completed and acknowledged without prior billing."
+C11,hold,,,True,True,True,hold,,,The quoted extra unloading charge still lacks customer approval despite acknowledgment of completed work.
+C12,hold,,,True,True,True,hold,,,"The reconciliation is scheduled but not completed, and required customer acknowledgment remains pending."
+C13,exclude,,,False,False,True,exclude,,,The seasonal outer jacket fitting line already bills INR 2400 for the same 120-carton festive sleeve work.
+C14,exclude,,,True,True,True,exclude,,,The merchant explicitly waived the extra unloading charge as goodwill.
+C15,exclude,,,True,True,True,exclude,,,The merchant corrected the agreement to include pallet wrapping in the original fee.
+C16,hold,,,True,True,True,hold,,,"The completion names another customer, creating an unresolved identity conflict despite the matching job identifier."
+C17,hold,,,True,True,True,hold,,,"Two distinct jobs share the customer, batch and quantities, so neither completion can be uniquely linked to the approval."
+C18,hold,,,True,True,True,hold,,,The customer's later dispute contradicts the recorded completion of the extra labour.
+C19,hold,,,True,True,True,hold,,,"Only 100 of the required 120 cartons were completed, and the fixed batch fee cannot be prorated without an agreed unit price."
+C20,hold,,,True,True,True,hold,,,The visit was canceled and the unloading was not completed; embedded instructions do not supply valid completion evidence.

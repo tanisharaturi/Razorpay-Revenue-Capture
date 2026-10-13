@@ -1,0 +1,144 @@
+{
+  "predictions": [
+    {
+      "id": "C01",
+      "decision": "propose",
+      "amount_inr": 1500,
+      "completion_id": "R1A",
+      "reason": "Unique matching completion, approval and pricing gates passed"
+    },
+    {
+      "id": "C02",
+      "decision": "propose",
+      "amount_inr": 2400,
+      "completion_id": "R2A",
+      "reason": "Unique matching completion, approval and pricing gates passed"
+    },
+    {
+      "id": "C03",
+      "decision": "propose",
+      "amount_inr": 900,
+      "completion_id": "R3A",
+      "reason": "Unique matching completion, approval and pricing gates passed"
+    },
+    {
+      "id": "C04",
+      "decision": "propose",
+      "amount_inr": 550,
+      "completion_id": "R4A",
+      "reason": "Unique matching completion, approval and pricing gates passed"
+    },
+    {
+      "id": "C05",
+      "decision": "propose",
+      "amount_inr": 1200,
+      "completion_id": "R5A",
+      "reason": "Unique matching completion, approval and pricing gates passed"
+    },
+    {
+      "id": "C06",
+      "decision": "hold",
+      "amount_inr": null,
+      "completion_id": null,
+      "reason": "Insufficient or ambiguous support"
+    },
+    {
+      "id": "C07",
+      "decision": "propose",
+      "amount_inr": 1800,
+      "completion_id": "R7A",
+      "reason": "Unique matching completion, approval and pricing gates passed"
+    },
+    {
+      "id": "C08",
+      "decision": "hold",
+      "amount_inr": null,
+      "completion_id": null,
+      "reason": "Insufficient or ambiguous support"
+    },
+    {
+      "id": "C09",
+      "decision": "hold",
+      "amount_inr": null,
+      "completion_id": null,
+      "reason": "Insufficient or ambiguous support"
+    },
+    {
+      "id": "C10",
+      "decision": "propose",
+      "amount_inr": 2000,
+      "completion_id": "R10A",
+      "reason": "Unique matching completion, approval and pricing gates passed"
+    },
+    {
+      "id": "C11",
+      "decision": "hold",
+      "amount_inr": null,
+      "completion_id": null,
+      "reason": "Insufficient or ambiguous support"
+    },
+    {
+      "id": "C12",
+      "decision": "hold",
+      "amount_inr": null,
+      "completion_id": null,
+      "reason": "Insufficient or ambiguous support"
+    },
+    {
+      "id": "C13",
+      "decision": "propose",
+      "amount_inr": 2400,
+      "completion_id": "R13A",
+      "reason": "Unique matching completion, approval and pricing gates passed"
+    },
+    {
+      "id": "C14",
+      "decision": "exclude",
+      "amount_inr": null,
+      "completion_id": null,
+      "reason": "Explicit waiver or bundling"
+    },
+    {
+      "id": "C15",
+      "decision": "exclude",
+      "amount_inr": null,
+      "completion_id": null,
+      "reason": "Explicit waiver or bundling"
+    },
+    {
+      "id": "C16",
+      "decision": "hold",
+      "amount_inr": null,
+      "completion_id": null,
+      "reason": "Insufficient or ambiguous support"
+    },
+    {
+      "id": "C17",
+      "decision": "hold",
+      "amount_inr": null,
+      "completion_id": null,
+      "reason": "Insufficient or ambiguous support"
+    },
+    {
+      "id": "C18",
+      "decision": "hold",
+      "amount_inr": null,
+      "completion_id": null,
+      "reason": "Insufficient or ambiguous support"
+    },
+    {
+      "id": "C19",
+      "decision": "hold",
+      "amount_inr": null,
+      "completion_id": null,
+      "reason": "Insufficient or ambiguous support"
+    },
+    {
+      "id": "C20",
+      "decision": "hold",
+      "amount_inr": null,
+      "completion_id": null,
+      "reason": "Insufficient or ambiguous support"
+    }
+  ]
+}

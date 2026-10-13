@@ -1,0 +1,18 @@
+{
+  "checked_at_utc": "2026-10-13T08:07:18.177Z",
+  "prototype_sha256": "910badf2667611b3c20eaf4d09b8350b3863e12bae37fed21e25b9244f60a168",
+  "actual_prototype_nila_baseline": {
+    "job": false,
+    "keyword": false,
+    "contextCandidates": 2
+  },
+  "checks": [
+    "Review required before draft",
+    "Draft and sent do not count as collected",
+    "Acceptance does not count as collected",
+    "Matched simulated payment adds INR 2400",
+    "Repeated payment action does not double count"
+  ],
+  "verification": "JavaScript runtime with DOM stubs; not browser layout or live payment verification",
+  "passed": true
+}

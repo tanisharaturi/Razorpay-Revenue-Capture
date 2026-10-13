@@ -1,0 +1,43 @@
+{
+  "job_keyword": {
+    "exact_case_correct": 13,
+    "n": 20,
+    "false_proposals": 0,
+    "false_proposal_cases": [],
+    "valid_proposals": 4,
+    "proposals": 4,
+    "eligible_cases": 10,
+    "missed_eligible_cases": 6,
+    "proposal_precision": 1.0,
+    "proposal_recall": 0.4,
+    "wrong_cases": [
+      "C02",
+      "C03",
+      "C04",
+      "C06",
+      "C08",
+      "C09",
+      "C13"
+    ]
+  },
+  "guarded_synonym": {
+    "exact_case_correct": 16,
+    "n": 20,
+    "false_proposals": 1,
+    "false_proposal_cases": [
+      "C13"
+    ],
+    "valid_proposals": 7,
+    "proposals": 8,
+    "eligible_cases": 10,
+    "missed_eligible_cases": 3,
+    "proposal_precision": 0.875,
+    "proposal_recall": 0.7,
+    "wrong_cases": [
+      "C06",
+      "C08",
+      "C09",
+      "C13"
+    ]
+  }
+}
